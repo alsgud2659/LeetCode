@@ -17,7 +17,7 @@ class Solution {
         } // n이 음수라면 지수법칙에 의해 1/x로
         
         if(n % 2 != 0){
-            return x * myPow(x * x, n / 2); // n이 홀수라면 함수 실행 값 * x를 한다.
+            return x * myPow(x * x, n / 2); // n이 홀수라면  실행 값 * x를 한다.
             // n/2를 했을 때 n이 홀수라면 나머지 1이 사라지기 때문에
         }else {
             return myPow(x * x, n / 2);
